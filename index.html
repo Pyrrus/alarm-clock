@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='./build/js/vendor.min.js'></script>
+    <script src='./build/js/app.js'></script>
+    <link href='./build/css/vendor.css' type='text/css' rel='stylesheet'>
+    <link href='css/styles.css' type='text/css' rel='stylesheet'>
+    <title></title>
+  </head>
+  <body>
+    <div class='container'>
+      <h1 id='time'></h1>
+      <input type='number' placeholder='alarm time' id='alarmTime' pattern='[0-9]{4}'>
+      <button class='btn' type='button' id='setAlarm'>Submit Alarm</button>
+      <div id='alarm'>
+        <button class='btn' type='button' id='snooze'>Snooze</button>
+        <button class='btn' type='button' id='off'>Turn Off Alarm</button>
+      </div>
+    </div>
+  </body>
+</html>
